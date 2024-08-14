@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <div id="suppinfo">
+    <h1>TIC-TAC-TOE</h1>
+    <h3><u>Current Turn</u></h3>
+    <h1 id="curturn">X</h1>
+    <h3 id="resultbanner"></h3>
+    <button class="resetbtn hide" id="resetbtn">Play Again!</button>
+    </div>
+    <div class="boardholder">
+    <div class="board">
+        <div class="myrow">
+            <span class="sector" id="A0"></span>
+            <span class="sector" id="B0"></span>
+            <span class="sector" id="C0"></span>
+        </div>
+        <div class="myrow">
+            <span class="sector" id="A1"></span>
+            <span class="sector" id="B1"></span>
+            <span class="sector" id="C1"></span>
+        </div>
+        <div class="myrow">
+            <span class="sector" id="A2"></span>
+            <span class="sector" id="B2"></span>
+            <span class="sector" id="C2"></span>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="scoreboard">
+    <div></div>
+    <div class="player"></div>
+</div>

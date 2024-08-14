@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTToeWebApp", "TTToeWebApp.csproj", "{3D977B35-C03E-4882-8FD2-AEB25D4B408B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D977B35-C03E-4882-8FD2-AEB25D4B408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D977B35-C03E-4882-8FD2-AEB25D4B408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D977B35-C03E-4882-8FD2-AEB25D4B408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D977B35-C03E-4882-8FD2-AEB25D4B408B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AEF7705-6A2D-4AE6-AFC7-4BB7A0E36306}
+	EndGlobalSection
+EndGlobal
